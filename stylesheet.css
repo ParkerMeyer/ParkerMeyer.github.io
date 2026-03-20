@@ -1,0 +1,213 @@
+/* =================================================
+Author: Parker Meyer
+File: stylesheet.css
+Description: Basic styling for portfolio pages using css.
+================================================= */
+
+
+/* ========================= */
+/* BASIC PAGE STYLE */
+/* ========================= */
+
+body {
+
+    font-family: Arial, sans-serif;
+    /* Sets the font for the entire page */
+
+    margin: 0;
+    /* Removes default browser spacing */
+
+    background-color: #FEFAE0;
+    /* Cornsilk background from palette */
+
+}
+
+
+
+/* ========================= */
+/* MAIN PAGE CONTENT */
+/* ========================= */
+
+main {
+
+    width: 80%;
+    /* Limits page width */
+
+    margin: auto;
+    /* Centers page content */
+
+    padding: 20px;
+    /* Adds spacing inside the main section */
+
+}
+
+
+
+/* ========================= */
+/* PAGE HEADINGS */
+/* ========================= */
+
+h2 {
+
+    color: #D4A373;
+    /* Light bronze color */
+
+}
+
+h3 {
+
+    color: #CCD5AE;
+    /* Dry sage color */
+
+}
+
+
+
+/* ========================= */
+/* COURSE GRID */
+/* ========================= */
+
+.course-grid {
+
+    display: flex;
+    /* Places course cards next to each other */
+
+    gap: 20px;
+    /* Adds spacing between cards */
+
+}
+
+
+
+/* ========================= */
+/* COURSE CARD */
+/* ========================= */
+
+.course-card {
+
+    width: 300px;
+
+    background-color: #FAEDCD;
+    /* Papaya whip background */
+
+    padding: 10px;
+
+}
+
+
+
+/* ========================= */
+/* COURSE IMAGE */
+/* ========================= */
+
+.course-card img {
+
+    width: 100%;
+    /* Makes image fill the card */
+
+}
+
+
+
+/* ========================= */
+/* CONTACT GRID */
+/* ========================= */
+
+.contact-grid {
+
+    display: flex;
+    /* Places contact cards next to each other */
+
+    gap: 20px;
+
+}
+
+
+
+/* ========================= */
+/* CONTACT CARD */
+/* ========================= */
+
+.contact-card {
+
+    width: 300px;
+
+    background-color: #FAEDCD;
+    /* Same color as course cards */
+
+    padding: 10px;
+
+}
+
+
+
+/* ========================= */
+/* PARAGRAPH TEXT */
+/* ========================= */
+
+p {
+
+    line-height: 1.4;
+    /* Improves readability */
+
+}
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+
+footer {
+    background-color: #CCD5AE;   /* Dry Sage */
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 8px;
+}
+
+.footer-nav a:hover {
+    color: #D4A373; /* Light Bronze */
+}
+
+/* ========================= */
+/* Resume */
+/* ========================= */
+
+section {
+    background-color: #FAEDCD;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* ========================= */
+/* PROJECTS PAGE */
+/* ========================= */
+
+.page-title {
+    text-align: center;
+}
+
+section ul {
+    margin-top: 10px;
+}
+
+section strong {
+    color: #000;
+}

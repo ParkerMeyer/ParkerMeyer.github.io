@@ -1,0 +1,195 @@
+<!-- =================================================
+Author: Parker Meyer
+File: courses.html
+Class: Web Design
+Assignment: Portfolio Website
+
+Description:
+This page displays the courses I have taken during my
+first year. Each course includes an image and a short
+description of what I learned.
+
+Technologies Used:
+- HTML5
+- Bootstrap (for navigation bar)
+- External CSS stylesheet
+- Chat GPT for a ton of comments so I am 100% certian on what everything does, bc I coppied so many things from prior work and modified it
+
+Date Created:3/6/26
+Last Updated:3/11/26
+================================================= -->
+
+
+<!doctype html>
+<!-- Declares the document as HTML5 -->
+
+<html lang="en">
+<!-- Root element of the webpage -->
+
+<head>
+
+<meta charset="utf-8">
+<!-- Allows most characters and symbols to display correctly -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Makes the page responsive on mobile devices -->
+
+<title>Parker Meyer Portfolio</title>
+<!-- Title shown in the browser tab -->
+
+<!-- Bootstrap CSS (needed for the navbar to work) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Link to your own stylesheet -->
+<link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+
+
+<!-- ================= NAVIGATION BAR ================= -->
+<!-- This is your original Bootstrap navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+<div class="container-fluid">
+
+<a class="navbar-brand" href="#">Parker Meyer</a>
+<!-- Name/logo in the navbar -->
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+<span class="navbar-toggler-icon"></span>
+</button>
+<!-- Button that appears on small screens -->
+
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+<ul class="navbar-nav">
+
+<li class="nav-item">
+<a class="nav-link active" href="#">Courses</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
+
+<li class="nav-item dropdown">
+
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+Projects
+</a>
+
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Project 1</a></li>
+<li><a class="dropdown-item" href="#">Project 2</a></li>
+<li><a class="dropdown-item" href="#">Project 3</a></li>
+</ul>
+
+</li>
+
+</ul>
+</div>
+</div>
+</nav>
+<!-- ================ END NAVBAR ================= -->
+
+
+<!-- ================= MAIN PAGE CONTENT ================= -->
+<main>
+
+<!-- Page title section -->
+<section class="page-title">
+
+<h2>Courses</h2>
+
+</section>
+
+
+<!-- Section grouping courses by academic year -->
+<section class="year-section">
+
+<h3>Year 1</h3>
+
+
+<!-- Container that holds the course boxes -->
+<div class="course-grid">
+
+
+<!-- ========== COURSE 1 ========== -->
+<div class="course-card">
+
+<!-- Course image -->
+<img src="https://miro.medium.com/1*d27A5K4i63BktGDEg25hqA.jpeg" alt="Python programming course">
+
+<!-- Course title -->
+<h4>CSC1710 Introduction to Programming</h4>
+
+<!-- Course description -->
+<p>
+This course introduced the basics of programming using Python.
+Topics included variables, loops, functions, and simple algorithms.
+It focused on developing logical thinking and problem-solving skills.
+</p>
+
+</div>
+
+
+
+<!-- ========== COURSE 2 ========== -->
+<div class="course-card">
+
+<img src="https://cdn.thenewstack.io/media/2025/01/34e3b0e3-c-introduction.jpg" alt="C++ programming course">
+
+<h4>CSC1720 Advanced Programming with Data Structures</h4>
+
+<p>
+This course expanded my programming knowledge using C++.
+We worked with arrays, functions, control structures,
+and built more complex programs while improving debugging
+and problem-solving skills.
+</p>
+
+</div>
+
+
+
+<!-- ========== COURSE 3 ========== -->
+<div class="course-card">
+
+<img src="https://static.vecteezy.com/system/resources/previews/000/344/822/non_2x/printed-circuit-board-vector-illustration.jpg" alt="Electrical circuits course">
+
+<h4>ECE2605 Digital Logic and Computer Systems</h4>
+
+<p>
+This course introduced the fundamentals of electrical engineering.
+Topics included voltage, current, resistance, and circuit analysis.
+We learned how electronic systems are designed and analyzed.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Parker Meyer | Portfolio Website</p>
+
+    <nav class="footer-nav">
+        <a href="home.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="courses.html">Courses</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+</footer>
+
+</body>
+</html>
